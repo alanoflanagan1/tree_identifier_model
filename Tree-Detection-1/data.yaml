@@ -1,0 +1,16 @@
+names:
+- Birch
+- Maple
+- Pine
+- Rowan
+- Spruce
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: tree-detection-hgxhy-168bb
+  url: https://universe.roboflow.com/phd-l0gzl/tree-detection-hgxhy-168bb/dataset/1
+  version: 1
+  workspace: phd-l0gzl
+test: ../test/images
+train: ../train/images
+val: ../valid/images

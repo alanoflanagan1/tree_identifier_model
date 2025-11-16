@@ -1,0 +1,12 @@
+names:
+- '0'
+nc: 1
+roboflow:
+  license: Public Domain
+  project: tree-detection-ekaot-jq24a
+  url: https://universe.roboflow.com/phd-l0gzl/tree-detection-ekaot-jq24a/dataset/1
+  version: 1
+  workspace: phd-l0gzl
+test: ../test/images
+train: ../train/images
+val: ../valid/images
