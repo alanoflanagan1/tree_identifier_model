@@ -8,6 +8,10 @@ from roboflow import Roboflow
 #tree-detection-ekaot-jq24a
 #tree-detection-hgxhy-168bb
 rf = Roboflow(api_key="XpDuyiXmQ3JFz0vBDcbz")
-project = rf.workspace("phd-l0gzl").project("tree-detection-ekaot-jq24a")
-version = project.version(1)
+# project = rf.workspace("phd-l0gzl").project("tree-detection-ekaot-jq24a")
+# version = project.version(1)
+# dataset = version.download("yolov8")
+
+project = rf.workspace("phd-l0gzl").project("tree-foliage-segmentation-4ehrj")
+version = project.version(2)
 dataset = version.download("yolov8")
