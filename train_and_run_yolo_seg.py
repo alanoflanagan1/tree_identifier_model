@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # -----------------------------------------------------
 # CONFIG
 # -----------------------------------------------------
-DATASET_DIR = "Tree-Segmentation-2"       # your local dataset folder
+DATASET_DIR = "Tree-Foliage-Segmentation-4"       # your local dataset folder
 DATA_YAML = os.path.join(DATASET_DIR, "data.yaml")
 
 # YOLO segmentation pretrained model (choose one)
@@ -28,7 +28,7 @@ def train_model():
         data=DATA_YAML,
         epochs=50,
         imgsz=640,
-        batch=4,
+        batch=1,
         device="cuda"  # or "cpu"
     )
 
@@ -56,7 +56,7 @@ def run_inference(source=PREDICT_SOURCE):
         source=source,
         conf=0.25,
         save=True,
-        device="cuda"  # or "cpu"
+        device="cpu"  # or "cpu"
     )
 
     print("✅ Predictions saved under: runs/segment/predict*/")

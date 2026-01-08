@@ -1,0 +1,12 @@
+names:
+- foliage
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: tree-foliage-segmentation-4ehrj
+  url: https://universe.roboflow.com/phd-l0gzl/tree-foliage-segmentation-4ehrj/dataset/4
+  version: 4
+  workspace: phd-l0gzl
+test: ../test/images
+train: ../train/images
+val: ../valid/images

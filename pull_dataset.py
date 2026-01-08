@@ -13,5 +13,5 @@ rf = Roboflow(api_key="XpDuyiXmQ3JFz0vBDcbz")
 # dataset = version.download("yolov8")
 
 project = rf.workspace("phd-l0gzl").project("tree-foliage-segmentation-4ehrj")
-version = project.version(2)
+version = project.version(4)
 dataset = version.download("yolov8")
